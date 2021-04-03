@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(pexels-photo-370799.jpeg);
+    background-size: cover;
+    color:white;
+}
+h1 {
+    font-size: 50px;
+    padding-top: 30px;
+    text-shadow:  2px 2px 6px black;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 25px;
+}
+
+p #nickname{
+    font-size: 5px;
+    text-align: left;
+}
+
+img{
+    margin-top: 10px;
+    padding: 10px;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 90px;
+    border: solid white 5px;
+}
+
+.botao {
+    text-decoration: none;
+    background-color: rgb(204,0,0);
+    color:white;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+}
+.botao:hover {
+    background-color: rgb(204,0,0,0.7);
+
+}
+.lista {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+.lista li {
+    display: inline;
+}
+.lista a {
+    color: white;
+    font-size: 45px;
+}
